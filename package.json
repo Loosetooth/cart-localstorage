@@ -6,7 +6,8 @@
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
-    "./utils/localstorage": "./utils/localstorage.js"
+    "./utils/localstorage": "./utils/localstorage.js",
+    "./utils/localstorage.js": "./utils/localstorage.js"
   },
   "scripts": {
     "test": "jest",
